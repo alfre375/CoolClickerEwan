@@ -9,7 +9,7 @@ import math
 
 def getState(file, deftData):
     try:
-        infile = open('data2.json', 'r')
+        infile = open('data.json', 'r')
         data = json.load(infile)
         return data
     except:
